@@ -1,0 +1,81 @@
+@media (max-width: 390px) {
+  .header p {
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 16px;
+  }
+  .search1 {
+    display: flex;
+    align-items: center;
+    padding: 0 15.5px;
+  }
+  .text {
+    display: flex;
+    max-width: 768px;
+    padding: 16px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+  .pro1 {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+}
+@media (max-width: 390px) {
+  .pro {
+    display: flex;
+    background-image: url(iphone-16-pro-mobile.png);
+    align-items: flex-end;
+    background-size: cover;
+  }
+  .iphone16 {
+    background-image: url("bca14fea5cc383f10eb575ae23034d12bd94613d.jpg");
+    background-size: cover;
+  }
+  .sec4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .figure {
+    width: 100%;
+  }
+  .Airpods {
+    width: 100%;
+  }
+  .Watch {
+    width: 100%;
+  }
+  .Macbook {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .header p {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 16px;
+  }
+}
+@media (max-width: 600px) {
+  .figure {
+    width: 100%;
+  }
+  .Airpods {
+    width: 100%;
+  }
+  .Watch {
+    width: 100%;
+  }
+  .Macbook {
+    width: 100%;
+  }
+}

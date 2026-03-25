@@ -16,7 +16,7 @@ section {
   align-items: center;
   gap: 24px;
   background-color: #f5f5f7cc;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 12px;
   position: fixed;
 }
@@ -334,6 +334,7 @@ section {
   justify-content: center;
   text-align: center;
   padding: 50px;
+  background-position: center;
 }
 .by6 {
   color: #2997ff;
@@ -467,135 +468,117 @@ section {
 .streamt {
   display: flex;
 }
-
-.Listen {
+.slide-truck {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+.slide-img img {
+  width: 196px;
+  height: 196px;
+}
+.slide {
+  width: 417px;
+  height: 236px;
+  background-color: #1b2632;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  position: relative;
+}
+.slide p {
+  color: white;
+}
+.listen {
   background-color: white;
-  color: black;
   border-radius: 999px;
+  padding: 5px;
+}
+.listen-dad {
+  width: 417px;
+  height: 236px;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  visibility: hidden;
-  width: 100px;
-  height: 30px;
+  margin-left: -10px;
 }
-.img1 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/1.jpg");
+.slide1 {
+  background-color: #ebb799;
   width: 417px;
   height: 236px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-size: cover;
+  padding: 15px;
 }
-.slide-track:hover .Listen {
-  visibility: visible;
-}
-.img2 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/2.jpg");
+.slide2 img {
   width: 417px;
   height: 236px;
+}
+.slide2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover;
 }
-.slide-track {
-  display: flex;
-  width: calc(430px * 10);
-  animation: scroll 12s linear infinite;
+.slide-img2 p {
+  color: white;
+  margin-top: -20px;
 }
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-1000px);
-  }
-}
-.img3 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/3.jpg");
+.slide3 {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img4 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/4.jpg");
+.slide-img3 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img5 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/5.jpg");
+.slide-img4 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img6 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/6.jpg");
+.slide-img5 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img7 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/7.jpg");
+.slide-img6 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img8 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/8.jpg");
+.slide-img7 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img9 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/9.jpg");
+.slide-img8 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.img10 {
-  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/10.jpg");
+.slide-img9 img {
   width: 417px;
   height: 236px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
-.slide-track:hover {
-  animation-play-state: paused;
-  filter: grayscale(1);
-}
-.slide5 {
+.section5 {
   overflow: hidden;
 }
-.img3 p {
-  color: white;
-  font-size: 18px;
-  font-family: "inter";
-  margin-top: 200px;
-  margin-left: -230 px;
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.listen-dad:hover {
+}
+.slide-truck:hover {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search1 {
+  display: flex;
+  align-items: center;
 }
