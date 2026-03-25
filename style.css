@@ -5,6 +5,10 @@
   box-sizing: border-box;
   gap: 12px;
 }
+body {
+  overflow-x: hidden;
+}
+
 section {
   margin-bottom: 12px;
 }
@@ -473,117 +477,159 @@ section {
 .streamt {
   display: flex;
 }
-.slide-truck {
+.slide-track {
+  width: 100;
+  height: 292px;
   display: flex;
-  width: max-content;
-  animation: scroll 30s linear infinite;
+  gap: 16px;
+  animation-name: slider-track;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-.slide-img img {
-  width: 196px;
-  height: 196px;
-}
-.slide {
-  width: 417px;
+.slider {
+  min-width: 417px;
   height: 236px;
   background-color: #1b2632;
+  align-items: center;
+  display: flex;
+  padding-left: 15px;
+  /* animation-name: slider-track;
+  animation-duration: 44s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; */
+}
+.slider-img {
+  width: 192px;
+  height: 192px;
+}
+.slider-button {
+  background-color: white;
+  border-radius: 999px;
+  width: 100px;
+  height: 33px;
+  align-items: center;
   display: flex;
   align-items: center;
+  justify-content: center;
+  visibility: hidden;
+
+  opacity: 1;
+}
+.slider p {
+  color: white;
+}
+.slider-dad {
+  width: 417px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-left: -15px;
+  align-items: center;
+  height: 236px;
+}
+.slider:hover .slider-button {
+  visibility: visible;
+}
+.slider1 {
+  background-color: rgba(0, 0, 0, 0.2);
+  min-width: 417px;
+  height: 236px;
+  align-items: center;
+  display: flex;
   padding-left: 15px;
   position: relative;
 }
-.slide p {
-  color: white;
+.slider1:hover .slider-button {
+  visibility: visible;
 }
-.listen {
-  background-color: white;
-  border-radius: 999px;
-  padding: 5px;
-}
-.listen-dad {
-  width: 417px;
+.slider2 {
+  min-width: 417px;
   height: 236px;
-  position: absolute;
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/3.jpg");
+  background-size: cover;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: -10px;
+
+  align-items: flex-end;
+  position: relative;
 }
-.slide1 {
-  background-color: #ebb799;
-  width: 417px;
+.slider2:hover .slider-button {
+  visibility: visible;
+}
+.slider2 p {
+  padding: 10px;
+}
+.slider3 {
+  min-width: 417px;
   height: 236px;
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/4.jpg");
+  background-size: cover;
   display: flex;
-  align-items: center;
-  padding: 15px;
+  align-items: flex-end;
+  position: relative;
 }
-.slide2 img {
-  width: 417px;
+.slider4 {
+  min-width: 417px;
   height: 236px;
-}
-.slide2 {
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/5.jpg");
+  background-size: cover;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  position: relative;
 }
-.slide-img2 p {
-  color: white;
-  margin-top: -20px;
-}
-.slide3 {
-  width: 417px;
+.slider5 {
+  min-width: 417px;
   height: 236px;
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/6.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
-.slide-img3 img {
-  width: 417px;
+.slider6 {
+  min-width: 417px;
   height: 236px;
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/7.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
-.slide-img4 img {
-  width: 417px;
+.slider7 {
+  min-width: 417px;
   height: 236px;
+  background-image: url("https://pinecone-academy-fgmu.vercel.app/images/slider/9.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
-.slide-img5 img {
-  width: 417px;
-  height: 236px;
+.slider3:hover .slider-button {
+  visibility: visible;
 }
-.slide-img6 img {
-  width: 417px;
-  height: 236px;
+.slider4:hover .slider-button {
+  visibility: visible;
 }
-.slide-img7 img {
-  width: 417px;
-  height: 236px;
+.slider5:hover .slider-button {
+  visibility: visible;
 }
-.slide-img8 img {
-  width: 417px;
-  height: 236px;
+.slider6:hover .slider-button {
+  visibility: visible;
 }
-.slide-img9 img {
-  width: 417px;
-  height: 236px;
+.slider7:hover .slider-button {
+  visibility: visible;
+  transition: 2s;
 }
-.section5 {
-  overflow: hidden;
+.slide-track:hover {
+  filter: grayscale(1);
+  animation-play-state: paused;
 }
-@keyframes scroll {
+
+@keyframes slider-track {
   from {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-1500px);
   }
-}
-.listen-dad:hover {
-}
-.slide-truck:hover {
-  filter: grayscale(1);
-  animation-play-state: paused;
-}
-.flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.search1 {
-  display: flex;
-  align-items: center;
 }
