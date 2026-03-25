@@ -457,12 +457,17 @@ section {
 }
 .streamts {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   color: white;
   font-size: 17px;
   font-family: "inter ";
-  margin-top: 600px;
-  margin-left: 50px;
+  padding: 20px;
+
+  height: 668px;
+}
+.cont {
+  display: flex;
+  align-items: center;
 }
 
 .streamt {
