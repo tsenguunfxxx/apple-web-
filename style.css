@@ -633,3 +633,7 @@ section {
     transform: translateX(-1500px);
   }
 }
+.search1 {
+  display: flex;
+  align-items: center;
+}

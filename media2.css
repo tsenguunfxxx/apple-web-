@@ -1,0 +1,15 @@
+@media (max-width: 390px) {
+  .navbar p {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .two {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

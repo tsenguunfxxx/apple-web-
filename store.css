@@ -367,3 +367,8 @@ body {
   font-family: "inter";
   font-size: 26px;
 }
+.two {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
