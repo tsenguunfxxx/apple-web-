@@ -1,0 +1,369 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header-menu {
+  height: 585px;
+}
+.navbar {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  font-size: 12px;
+  font-family: "Inter";
+  background-color: #f5f5f7cc;
+  position: fixed;
+}
+.header-text {
+  width: 100%;
+  height: 60px;
+  font-size: 14px;
+  font-family: "inter";
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  align-items: center;
+  background-color: white;
+  padding-top: 60px;
+}
+.background {
+  background-image: url("Background1.png");
+  width: 100%;
+  height: 75px;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 655px;
+  height: 52px;
+}
+.texts h1 {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 44px;
+}
+.texts h2 {
+  font-size: 44px;
+  color: #6e6e73;
+}
+.shoppig-hell {
+  width: 226px;
+  height: 100px;
+  display: flex;
+  gap: 16px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 0 140px;
+  justify-content: space-between;
+}
+
+.frame {
+  width: 175px;
+  height: 100px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+}
+.header2 {
+  width: 100%;
+  height: 179px;
+}
+.product-list {
+  width: 100%;
+  height: 146px;
+}
+.listitem {
+  display: flex;
+  width: 136px;
+  padding: 16px 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.prodact-list {
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+  gap: 12px;
+  padding: 0 140px;
+}
+.text4 {
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+
+  height: 34px;
+
+  flex-shrink: 0;
+}
+.second-title {
+  display: flex;
+  width: 467px;
+
+  gap: 4px;
+}
+.frame65 {
+  padding-left: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-right: 50px;
+}
+.item1 {
+  background-image: url("store-card-50-holiday-iphone-pro-202411_GEO_US.png");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.second-title p {
+  color: #6e6e73;
+  font-size: 24px;
+  font-family: "inter";
+}
+.frame51 h3 {
+  color: #b64400;
+
+  font-family: "Inter";
+  font-size: 12px;
+}
+.frame51 {
+  width: 322px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.items {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+}
+.item2 {
+  background-image: url("c919767811d17384ffff099320c9c7133d51ca53.jpg");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+  padding-top: 51px;
+}
+.item3 {
+  background-image: url("0cfc0dd0d01205674f4c489ef17a681ba94e875c.jpg");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+}
+.item4 {
+  background-image: url("8943d8c585c4f4bb4720641745b1cce65bdd8f0e.jpg");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+}
+.section2 {
+  width: 100%;
+  height: 558px;
+}
+.cards {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 24px;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  background-image: url("0a525b0da81b93735e1f513f958e111d7e3079a1.jpg");
+  background-size: cover;
+  padding-top: 53px;
+  padding-left: 31px;
+  border-radius: 10px;
+}
+.card h1 {
+  width: 197px;
+  height: 66px;
+  font-size: 26px;
+  font-family: "inter";
+}
+
+.item5 {
+  background-image: url("5.jpeg");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+  padding-top: 51px;
+}
+.item6 {
+  background-image: url("7.jpeg");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+  padding-top: 51px;
+}
+body {
+  background-color: #f5f5f7cc;
+}
+.frame51 h2 {
+  color: white;
+}
+.item7 {
+  background-image: url("8.jpeg");
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+  padding-top: 51px;
+}
+.item8 {
+  background-image: url("9.jpeg");
+
+  width: 480px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 30px;
+  background-size: cover;
+  padding-top: 51px;
+}
+.card1 {
+  width: 313px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px 28px 32px 28px;
+  border-radius: 16px;
+}
+.hooson {
+  width: 253px;
+  height: 58px;
+}
+.description {
+  width: 257px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.text2 {
+  width: 257px;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text2 p {
+  color: #b64400;
+
+  font-family: "inter";
+  font-size: 16px;
+}
+.card2 {
+  width: 313px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px 28px 32px 28px;
+  border-radius: 16px;
+}
+.card3 {
+  width: 313px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px 28px 32px 28px;
+  border-radius: 16px;
+}
+.card4 {
+  width: 313px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 71px 28px 32px 28px;
+  border-radius: 16px;
+}
+.card2 img {
+  width: 230px;
+  height: 230px;
+}
+.card3 img {
+  width: 230px;
+  height: 230px;
+}
+.card4 img {
+  width: 230px;
+  height: 230px;
+}
+.frame63 {
+  display: flex;
+  width: 1920px;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding-bottom: 100px;
+}
+.frame62 {
+  display: flex;
+  gap: 12px;
+}
+.order {
+  border-radius: 999px;
+  border: 1px solid #1d1d1f;
+  display: flex;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 8px;
+}
+.order p {
+  color: #1d1d1f;
+
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+}
+.frame62 h1 {
+  font-family: "inter";
+  font-size: 26px;
+}
